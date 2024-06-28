@@ -62,7 +62,7 @@ class IPOPT(SystemCallSolver):
         return ResultsFormat.sol
 
     def _default_executable(self):
-        executable = Executable("/content/ipopt")
+        executable = Executable("/usr/bin/ipopt")
         if not executable:
             logger.warning(
                 "Could not locate the 'ipopt' executable, "

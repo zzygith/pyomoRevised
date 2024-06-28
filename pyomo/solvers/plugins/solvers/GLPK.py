@@ -117,7 +117,7 @@ class GLPKSHELL(SystemCallSolver):
         return ResultsFormat.soln
 
     def _default_executable(self):
-        executable = Executable('/content/glpsol')
+        executable = Executable('/usr/bin/glpsol')
         if not executable:
             msg = (
                 "Could not locate the 'glpsol' executable, which is "
