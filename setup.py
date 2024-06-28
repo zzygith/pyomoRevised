@@ -200,7 +200,7 @@ class DependenciesCommand(Command):
 
 
 setup_kwargs = dict(
-    name='Pyomo',
+    name='PyomoRevised',
     #
     # Note: the release number is set in pyomo/version/info.py
     #
